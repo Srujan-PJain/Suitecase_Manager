@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".slapshScreen"
+    android:background="@drawable/mainbackground"
+    >
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="285dp"
+        android:layout_height="203dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="217dp"
+        android:layout_marginEnd="128dp"
+        android:layout_marginBottom="311dp"
+        android:alpha="0.8"
+        android:cropToPadding="true"
+        app:srcCompat="@drawable/splashscreen" />
+
+    <TextView
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="427dp"
+        android:layout_marginEnd="-24dp"
+        android:layout_marginBottom="227dp"
+        android:fontFamily="cursive"
+        android:text="Pack your things and get Ready"
+        android:textColor="@color/white"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+</RelativeLayout>
